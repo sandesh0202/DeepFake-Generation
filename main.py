@@ -4,7 +4,7 @@ import mediapipe as mp
 import sys
 width = 640
 height = 480
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) 
 result1=cv2.VideoWriter('filename.avi', cv2.VideoWriter_fourcc(*'MJPG'), 25, (640,480))
 cap.set(3, width)
 cap.set(4, height)
